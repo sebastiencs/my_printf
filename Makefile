@@ -5,7 +5,7 @@
 ## Login   <chapui_s@epitech.net>
 ## 
 ## Started on  Sun Nov 17 13:15:52 2013 chapui_s
-## Last update Sun Nov 17 17:51:18 2013 chapui_s
+## Last update Fri Dec 20 23:50:19 2013 Sebastien Chapuis
 ##
 
 SRC	= my_printf.c \
@@ -37,11 +37,11 @@ $(NAME):	$(OBJ)
 	ranlib $(NAME)
 
 clean:
-	rm $(OBJ)
+	rm -f $(OBJ)
 
 fclean:
-	rm $(NAME)
-	rm $(OBJ)
+	rm -f $(NAME)
+	rm -f $(OBJ)
 
 re:	fclean all
 
